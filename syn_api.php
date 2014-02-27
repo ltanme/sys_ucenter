@@ -45,7 +45,7 @@ if(isset($_REQUEST)){
  
   $userinfo = array(
     		"username"=>$jsonArr->phoneNumber,
-    		"password"=>$jsonArr->pw
+    		"password"=>$jsonArr->password
   );
 
   extract($userinfo);
